@@ -6,6 +6,8 @@ This is a web application for tracking COVID-19 data in different countries and 
 - Select a country and a date range to view the number of new cases and new deaths for each day in the selected date range.
 - View a bar chart comparing number of cases and deasths between continents.
 
+The aplications is reponsive and supports dark mode based on your device's settings.
+
 ## Technologies Used
 
 - PHP
@@ -51,9 +53,17 @@ You should now be able to register a new user by going to http://localhost/covid
 
 ## Usage
 
-To use the application, simply select a country and a date range using the form on the homepage. The application will display a chart showing the number of new cases and new deaths for each day in the selected date range.
+The application is very simple and intuitive to use. Here are a few screen recording to wal you trhough.
 
-You can also click on the "View Table" button to view the data in a table format.
+Signing up:
+
+https://user-images.githubusercontent.com/72031069/236628934-76bb8b72-ac31-4b10-af3f-26b86b2e704f.mp4
+
+Navigating the app:
+
+https://user-images.githubusercontent.com/72031069/236629149-f8c43387-14fe-4a2b-ac4c-ac1215ce963d.mp4
+
+Please note that the tab "Users" in the sidebar should not return nothing as this feature was not finished.
 
 ## Credits
 
@@ -63,3 +73,4 @@ This application was built using the following open-source libraries:
 - Flowbite - https://flowbite.com/
 - jQuery - https://jquery.com/
 - Tailwind CSS - https://tailwindcss.com/
+- Water.css - https://watercss.kognise.dev/
