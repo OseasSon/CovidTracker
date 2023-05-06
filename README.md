@@ -15,6 +15,7 @@ The aplications is reponsive and supports dark mode based on your device's setti
 - JavaScript
 - jQuery
 - Tailwind CSS
+- Water.css
 - Flowbite
 - Chart.js
 
@@ -32,10 +33,13 @@ To install XAMPP:
 Next, clone this repository to your local machine:
 
 ```
-git clone https://github.com/your-username/covid-tracker-app.git
+gh repo clone OseasSon/CovidTracker
 ```
+Or dowload it as a .zip file:
 
-After cloning the repository, navigate to the project directory and copy the entire directory to the `htdocs` directory inside your XAMPP installation directory. For example, on Windows, you might copy the `covidtracker` directory to `C:\xampp\htdocs`.
+![Markup on 2023-05-06 at 15:26:40](https://user-images.githubusercontent.com/72031069/236630204-5a875058-bf77-48cb-a5f1-26312bfd29fb.png)
+
+After cloning the repository or opening the zip, navigate to the project directory and copy the entire directory to the `htdocs` directory inside your XAMPP installation directory. For example, on Windows, you might copy the `covidtracker` directory to `C:\xampp\htdocs`.
 
 You should now be able to access the application in your web browser by going to `http://localhost/covidtracker/`.
 
@@ -49,11 +53,13 @@ This project connects to a database to register, login and track user sessions. 
 
 3. Click "Import" to import the SQL dump file into your new database.
 
+![Markup on 2023-05-06 at 15:30:38](https://user-images.githubusercontent.com/72031069/236630405-7efe2fd1-07a2-4aee-a0c3-40c4449034e4.png)
+
 You should now be able to register a new user by going to http://localhost/covidtracker/signup.php or login with one of the mock users imported by going to http://localhost/covidtracker/login.php
 
 ## Usage
 
-The application is very simple and intuitive to use. Here are a few screen recording to wal you trhough.
+The application is very simple and intuitive to use. Here are a few screen recording to walk you trhough.
 
 Signing up:
 
