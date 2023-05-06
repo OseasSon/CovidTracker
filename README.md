@@ -49,7 +49,7 @@ This project connects to a database to register, login and track user sessions. 
 
 2. Click on the "Import" tab.
 
-2. Choose the SQL dump file `login_db.sql` from the project's folder.
+2. Choose the SQL dump file `login_db.sql` from the `covidtracker` project's folder.
 
 3. Click "Import" to import the SQL dump file into your new database.
 
